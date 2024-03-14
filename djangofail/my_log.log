@@ -1,0 +1,1835 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\chart\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\chart\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\chart\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\chart\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\chart\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\education\webss\chart\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /pybo/
+Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Watching for file changes with StatReloader
+Internal Server Error: /pybo/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\pybo\views\base_views.py", line 9, in index
+    3/0  # 강제로 오류발생
+ZeroDivisionError: division by zero
+Not Found: /favicon.ico
+C:\education\webss\pybo\views\base_views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /pybo/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\pybo\views\base_views.py", line 24, in index
+    return render(request, 'pybo/question_list.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: pybo/question_list.html
+Internal Server Error: /pybo/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\pybo\views\base_views.py", line 24, in index
+    return render(request, 'pybo/question_list.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: pybo/question_list.html
+Internal Server Error: /pybo/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\pybo\views\base_views.py", line 24, in index
+    return render(request, 'pybo/question_list.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: pybo/question_list.html
+Internal Server Error: /pybo/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\pybo\views\base_views.py", line 24, in index
+    return render(request, 'pybo/question_list.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: pybo/question_list.html
+Internal Server Error: /pybo/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\pybo\views\base_views.py", line 24, in index
+    return render(request, 'pybo/question_list.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: pybo/question_list.html
+Internal Server Error: /pybo/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\pybo\views\base_views.py", line 24, in index
+    return render(request, 'pybo/question_list.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: pybo/question_list.html
+Internal Server Error: /pybo/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\pybo\views\base_views.py", line 24, in index
+    return render(request, 'pybo/question_list.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: pybo/question_list.html
+Internal Server Error: /pybo/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\pybo\views\base_views.py", line 24, in index
+    return render(request, 'pybo/question_list.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: pybo/question_list.html
+Watching for file changes with StatReloader
+Internal Server Error: /pybo/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\pybo\views\base_views.py", line 24, in index
+    return render(request, 'pybo/question_list.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: pybo/question_list.html
+Watching for file changes with StatReloader
+Internal Server Error: /admin/pybo/question/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1054, "Unknown column 'pybo_question.author_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\contrib\admin\options.py", line 2120, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'pybo_question.author_id' in 'field list'")
+Watching for file changes with StatReloader
+Internal Server Error: /pybo/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\pybo\views\base_views.py", line 24, in index
+    return render(request, 'pybo/question_list.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: pybo/question_list.html
+Watching for file changes with StatReloader
+C:\education\webss\pybo\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\views\question_views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /pybo/chart
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\education\webss\pybo\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\views\question_views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\education\webss\common\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\pybo\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\education\webss\common\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\education\webss\common\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed (GET): /common/logout/
+Method Not Allowed: /common/logout/
+Internal Server Error: /common/chart/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\common\views.py", line 32, in index
+    data = StockData.read_csv('./코스피지수 과거 데이터.csv')
+  File "C:\education\webss\common\models.py", line 10, in read_csv
+    data = pd.read_csv(file_path)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1024, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 618, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1618, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1878, in _make_engine
+    self.handles = get_handle(
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: './코스피지수 과거 데이터.csv'
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/favicon.png
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/css/style.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/assets/img/favicon.png
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Forbidden (CSRF token missing.): /common/chart/
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/index.html
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/assets/css/style.css
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/chart/index.html
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Forbidden (CSRF token missing.): /common/chart/
+Watching for file changes with StatReloader
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /common/chart/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\common\views.py", line 37, in index
+    return render('chart/index.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loaders\base.py", line 17, in get_template
+    for origin in self.get_template_sources(template_name):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loaders\cached.py", line 70, in get_template_sources
+    yield from loader.get_template_sources(template_name)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loaders\filesystem.py", line 35, in get_template_sources
+    name = safe_join(template_dir, template_name)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\utils\_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\ProgramData\anaconda3\envs\trading\lib\ntpath.py", line 143, in join
+    genericpath._check_arg_types('join', path, *paths)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\genericpath.py", line 152, in _check_arg_types
+    raise TypeError(f'{funcname}() argument must be str, bytes, or '
+TypeError: join() argument must be str, bytes, or os.PathLike object, not 'dict'
+Internal Server Error: /common/chart/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\common\views.py", line 37, in index
+    return render('chart/index.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loaders\base.py", line 17, in get_template
+    for origin in self.get_template_sources(template_name):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loaders\cached.py", line 70, in get_template_sources
+    yield from loader.get_template_sources(template_name)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loaders\filesystem.py", line 35, in get_template_sources
+    name = safe_join(template_dir, template_name)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\utils\_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\ProgramData\anaconda3\envs\trading\lib\ntpath.py", line 143, in join
+    genericpath._check_arg_types('join', path, *paths)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\genericpath.py", line 152, in _check_arg_types
+    raise TypeError(f'{funcname}() argument must be str, bytes, or '
+TypeError: join() argument must be str, bytes, or os.PathLike object, not 'dict'
+Internal Server Error: /common/chart/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\common\views.py", line 37, in index
+    return render('chart/index.html', context)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loaders\base.py", line 17, in get_template
+    for origin in self.get_template_sources(template_name):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loaders\cached.py", line 70, in get_template_sources
+    yield from loader.get_template_sources(template_name)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\template\loaders\filesystem.py", line 35, in get_template_sources
+    name = safe_join(template_dir, template_name)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\utils\_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "C:\ProgramData\anaconda3\envs\trading\lib\ntpath.py", line 143, in join
+    genericpath._check_arg_types('join', path, *paths)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\genericpath.py", line 152, in _check_arg_types
+    raise TypeError(f'{funcname}() argument must be str, bytes, or '
+TypeError: join() argument must be str, bytes, or os.PathLike object, not 'dict'
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /pybo/common
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/
+Method Not Allowed (GET): /common/logout/
+Method Not Allowed: /common/logout/
+Not Found: /common/chart/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/chart/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/chart/assets/vendor/quill/quill.snow.css
+Not Found: /common/chart/assets/vendor/quill/quill.bubble.css
+Not Found: /common/chart/assets/vendor/remixicon/remixicon.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/vendor/simple-datatables/style.css
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/chart/assets/img/product-1.jpg
+Not Found: /common/chart/assets/img/product-3.jpg
+Not Found: /common/chart/assets/img/product-2.jpg
+Not Found: /common/chart/assets/img/product-4.jpg
+Not Found: /common/chart/assets/img/product-5.jpg
+Not Found: /common/chart/assets/img/news-1.jpg
+Not Found: /common/chart/assets/img/news-2.jpg
+Not Found: /common/chart/assets/img/news-3.jpg
+Not Found: /common/chart/assets/img/news-4.jpg
+Not Found: /common/chart/assets/img/news-5.jpg
+Not Found: /common/chart/components-progress.html
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+Not Found: /common/
+Not Found: /common/assets/vendor/bootstrap/css/bootstrap.min.css
+Not Found: /common/assets/vendor/quill/quill.snow.css
+Not Found: /common/assets/vendor/bootstrap-icons/bootstrap-icons.css
+Not Found: /common/assets/vendor/quill/quill.bubble.css
+Not Found: /common/assets/vendor/boxicons/css/boxicons.min.css
+Not Found: /common/assets/vendor/remixicon/remixicon.css
+Not Found: /common/assets/vendor/simple-datatables/style.css
+Not Found: /common/assets/css/style.css
+Not Found: /common/chart/assets/img/logo.png
+Not Found: /common/chart/assets/img/messages-1.jpg
+Not Found: /common/chart/assets/img/messages-2.jpg
+Not Found: /common/chart/assets/img/messages-3.jpg
+Not Found: /common/chart/assets/img/profile-img.jpg
+Not Found: /common/chart/assets/vendor/apexcharts/apexcharts.min.js
+Not Found: /common/chart/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /common/chart/assets/vendor/chart.js/chart.umd.js
+Not Found: /common/chart/assets/vendor/echarts/echarts.min.js
+Not Found: /common/chart/assets/vendor/quill/quill.min.js
+Not Found: /common/chart/assets/vendor/simple-datatables/simple-datatables.js
+Not Found: /common/chart/assets/vendor/tinymce/tinymce.min.js
+Not Found: /common/chart/assets/vendor/php-email-form/validate.js
+Not Found: /common/chart/assets/js/main.js
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /common/chart/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\common\views.py", line 32, in index
+    data = StockData.read_csv('./코스피지수 과거 데이터.csv')
+  File "C:\education\webss\common\models.py", line 10, in read_csv
+    data = pd.read_csv(file_path)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1024, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 618, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1618, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1878, in _make_engine
+    self.handles = get_handle(
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: './코스피지수 과거 데이터.csv'
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /common/chart/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\common\views.py", line 33, in index
+    data = pd.read_csv('../코스피지수 과거 데이터.csv')
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1024, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 618, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1618, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1878, in _make_engine
+    self.handles = get_handle(
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../코스피지수 과거 데이터.csv'
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /common/chart/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\common\views.py", line 33, in index
+    data = pd.read_csv('./코스피지수 과거 데이터.csv')
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1024, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 618, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1618, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1878, in _make_engine
+    self.handles = get_handle(
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: './코스피지수 과거 데이터.csv'
+Internal Server Error: /common/chart/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\common\views.py", line 33, in index
+    data = pd.read_csv('./코스피지수 과거 데이터.csv')
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1024, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 618, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1618, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1878, in _make_engine
+    self.handles = get_handle(
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: './코스피지수 과거 데이터.csv'
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /common/chart/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\common\views.py", line 33, in index
+    data = pd.read_csv('코스피지수 과거 데이터.csv')
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1024, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 618, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1618, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1878, in _make_engine
+    self.handles = get_handle(
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '코스피지수 과거 데이터.csv'
+Internal Server Error: /common/chart/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\common\views.py", line 33, in index
+    data = pd.read_csv('코스피지수 과거 데이터.csv')
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1024, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 618, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1618, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1878, in _make_engine
+    self.handles = get_handle(
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '코스피지수 과거 데이터.csv'
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /common/chart/
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\education\webss\common\views.py", line 33, in index
+    data = pd.read_csv('./코스피지수 과거 데이터.csv')
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1024, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 618, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1618, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\parsers\readers.py", line 1878, in _make_engine
+    self.handles = get_handle(
+  File "C:\ProgramData\anaconda3\envs\trading\lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: './코스피지수 과거 데이터.csv'
+C:\education\webss\common\views.py changed, reloading.
+Watching for file changes with StatReloader
