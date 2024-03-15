@@ -23,9 +23,9 @@ current_date = '20240304'
 
 # 데이터베이스 연결 (전역 변수로 선언)
 connection = pymysql.connect(
-    host='34.64.102.63',
+    host='',
     user='big17',
-    password='jh162534',
+    password='',
     db='trading',
     charset='utf8'
 )

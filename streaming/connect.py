@@ -53,8 +53,8 @@ class eBESTConnect:
         return ACCESS_TOKEN
     
 # OPEN API 키 설정
-APP_KEY = 'PSGfwLiFjkhtsSvd206vLlSS3B2KBUN8FThC'
-APP_SECRET = '2j2l3tfh8ObeserXe6YGsIRtoRJFT3UE'
+APP_KEY = ''
+APP_SECRET = ''
 
 # 토큰 생성함수 실행
 conn = eBESTConnect(APP_KEY, APP_SECRET)
