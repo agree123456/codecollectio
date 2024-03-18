@@ -23,9 +23,9 @@ current_date = '20240304'
 
 # 데이터베이스 연결 (전역 변수로 선언)
 connection = pymysql.connect(
-    host='',
+    host='34.64.102.63',
     user='big17',
-    password='',
+    password='jh162534',
     db='trading',
     charset='utf8'
 )
@@ -262,11 +262,7 @@ if session_state["logged_in"]:
             "엠로":"A058970",
             "링크제니시스":"A219420" ,
         } 
-            ticker_dicts = {
-            # 추가 옵션 및 티커값 추가
-            "포스코홀딩스":"005490",
-            "에코프로비엠":"247540" 
-        }       
+
             option1 = st.selectbox('원하는 테마를 골라주세요', ['AI','전기차','2차전지',  '정치테마주'])
             if option1 == 'AI':
                 option2 = st.selectbox("원하는 종목을 골라주세요", list(ticker_dict.keys()))
@@ -301,8 +297,13 @@ if session_state["logged_in"]:
                     st.dataframe(new_data, column_config=column_config)
                     connection.close()
             elif option1 == '2차전지':
-                option2 = st.selectbox("원하는 종목을 골라주세요", list(ticker_dicts.keys()))
-                ticker = ticker_dicts.get(option2)
+                query1 = f"SELECT ai.name ,ai.ticker FROM table_Thema  ai WHERE ai.ticker_thema LIKE '%2차전지%'"
+                cursor.execute(query1)
+                result1 = cursor.fetchall()
+                df = pd.DataFrame(result1, columns = ['name','ticker'])
+                df_dict = {row['name']: row['ticker'] for index, row in df.iterrows()}
+                option2 = st.selectbox("원하는 종목을 골라주세요", list(df_dict.keys()))
+                ticker = df_dict.get(option2)
                 if option2: # option2가 선택된 경우에만 데이터베이스에서 데이터를 가져옵니다.
                     query1 = f"SELECT * FROM PRICE2 WHERE ticker = '{ticker}'"
                     query2 = f"SELECT * FROM news S WHERE TICKER = 'A{ticker}'"

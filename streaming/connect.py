@@ -51,11 +51,3 @@ class eBESTConnect:
         ACCESS_TOKEN = request.json()["access_token"] 
 
         return ACCESS_TOKEN
-    
-# OPEN API 키 설정
-APP_KEY = ''
-APP_SECRET = ''
-
-# 토큰 생성함수 실행
-conn = eBESTConnect(APP_KEY, APP_SECRET)
-ACCESS_TOKEN = conn.access_token
